@@ -1,15 +1,15 @@
-#BrandonJohnson
+# BrandonJohnson
 Proyecto 1 | Sistemas y tecnologías web
 ##Descripción
 Este proyecto es una réplica del sitio web [Brandon Johnson](https://brandoncjohnson.com/) haciendo uso de React.js con un mejoramiento del rendimiento del DOM.
-<div align="center"><img src="(forReadme.jpeg)">
+<div align="center"><img src="(forReadme.jpeg)"></div>
 
-##Instalación
+## Instalación
 1. Clonar el repositorio de `GitHub` https://github.com/lauratamath/HuntingCovidians.git a la carpeta deseada. <br/>
 2. Dentro de dicha carpeta, abrir la PowerShell o cmd, y colocar el comando `npm run serve` para poder correr la página.<br/>
 3. Abrir su navegador de preferencia en http://localhost:8080/ <br/>
 
-##Tecnologías implementadas
+## Tecnologías implementadas
 Tecnología	| Explicación
 ----------------|---------------------------------------------------------
 ✅ React		| Se puede hacer uso de comoponenetes, lo cual permite ahorrar código, brinda un aspecto uniforme dentro del sitio y VirtualDOM permite que se actualicen los cambios realizados. 
