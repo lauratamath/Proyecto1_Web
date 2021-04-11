@@ -1,0 +1,199 @@
+#viewport {
+    overflow: hidden;
+    width: 100%;
+}
+
+.about {
+    background: #000000;
+    padding: 280px 0px;
+    position: relative;
+    color: #ffffff;
+}
+
+.numeros{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    right: 30px;
+    top: 160px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-family:  "Lucida Sans Typewriter";
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.container {
+    margin: auto;
+    width: 1100px;
+    position: relative;
+    height: 100%;
+    display: block;
+}
+
+.asteroid{
+    width: 300px;
+    position: absolute;
+    left: -120px;
+    top: 30px;
+    display: block;
+    transform: translate3d(0px, -89.04px, 0px);
+}
+
+.asteroid-2 {
+    width: 120px;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    z-index: 0;
+    transform: translate3d(0px, 162px, 0px);
+    display: block;
+}
+
+.asteroid-3 {
+    width: 840px;
+    left: auto;
+    right: -800px;
+    top: 600px;
+    z-index: 0;
+    display: block;
+    position: absolute;
+}
+
+h3{
+    z-index: 80;
+    position: relative;
+}
+
+h3 span {
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #484644;
+    letter-spacing: 3px;
+    text-align: center;
+    display: block;
+    font-family: 'Lucida Console', Monaco;
+}
+
+.always{
+    height: 600px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.asteroid-main {
+    width: 100%;
+    z-index: 50;
+    top: 40px;
+    position: absolute;
+    text-align: center;
+}
+
+.about .line-steez {
+    transition: 2.3s all cubic-bezier(0.23, 1, 0.32, 1);
+    height: 900px;
+    width: 3px;
+    background: #202020;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -150px;
+    margin: auto;
+    -webkit-transition: 1.3s all cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: 1.3s all cubic-bezier(0.23, 1, 0.32, 1);
+    -ms-transition: 1.3s all cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: 1.3s all cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.about-active .steez-2 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.about-active .line-steez1 {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.box{
+    transition: 2.3s all cubic-bezier(0.23, 1, 0.32, 1);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    border: 10px solid #ffffff;
+    height: 0px;
+    width: 245px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.about-active .box{
+    height: 500px;
+}
+
+.texto{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: "Bitstream Vera Sans Mono",monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.texto b{
+    color: #484644;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.texto b:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+
+.scroll {
+    padding-top: 150px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+}
+
+.flecha{
+    color: #484644;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 34px;
+    text-align: center;
+}
+
+.flecha:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+   
+}

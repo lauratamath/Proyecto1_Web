@@ -1,0 +1,113 @@
+#viewport {
+    overflow: hidden;
+    width: 100%;
+}
+
+.interests {
+    background: #ffffff;
+    position: relative;
+    padding-top: 360px;
+    padding-bottom: 130px;
+    border-bottom: 1px solid #cdcdcd;
+    text-align: center;
+    font-size: 14px;
+}
+
+.numero{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    right: 30px;
+    top: 160px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-family:  "Lucida Sans Typewriter";
+    font-size: 13px;
+    color: #303030;
+}
+
+.container {
+    margin: auto;
+    width: 1100px;
+    position: relative;
+}
+
+.interests-active .line-steez {
+    width: 60px;
+}
+.interests .line-steez {
+    -webkit-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -ms-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    position: absolute;
+    left: 0px;
+    top: -300px;
+    width: 0px;
+    height: 6px;
+    background: #484644;
+}
+
+.profile {
+    width: 250px;
+    padding: 22px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -500px;
+    padding-bottom: 30px;
+    margin: auto;
+    border: 10px solid #d2d2d2;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    z-index: 10;
+}
+
+.google{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #303030;;
+    font-family: "Lucida Sans Typewriter", monospace;
+    text-align: center;
+    font-size: 14px;
+}
+
+.google:hover{
+    color: #cdcdcd;
+}
+
+.profileImg{
+    border: none;
+    margin-bottom: 20px;
+}
+
+.desc{
+    width: 580px;
+    margin: auto;
+    font-family: "Bitstream Vera Sans Mono",monospace;
+    font-weight: 300;
+    color: #303030;
+    line-height: 26px;
+}
+
+.scrollI {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 280px;
+    height: 30px;
+    overflow: hidden;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Bitstream Vera Sans Mono",monospace;
+    line-height: 26px;
+    font-size: 34px;
+}

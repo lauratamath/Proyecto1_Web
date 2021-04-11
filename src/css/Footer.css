@@ -1,0 +1,62 @@
+#viewport {
+    overflow: hidden;
+    width: 100%;
+}
+
+footer {
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.containerr {
+    margin: auto;
+    width: 1100px;
+    position: relative;
+}
+
+.bra{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    color: #303030;
+    font-family: "Lucida Sans Typewriter",monospace;
+}
+
+.other{
+    font-weight: 300;
+    font-family: "Lucida Sans Typewriter",monospace;
+    color: #303030;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    
+}
+
+.lastt{
+    text-decoration: underline;
+    font-weight: normal;
+    color: #303030;;
+    font-family: "Lucida Sans Typewriter", monospace;
+    text-align: center;
+    font-size: 12px;
+}
+
+.lastt:hover{
+    color: #cdcdcd;
+}
+
+.lsa{
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: normal;
+    color: #303030;;
+    font-family: "Lucida Sans Typewriter", monospace;
+    text-align: center;
+    font-size: 12px; 
+}
+
+.lsa:hover{
+    color: #cdcdcd;
+}
