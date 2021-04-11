@@ -10,7 +10,7 @@ Este proyecto es una réplica del sitio web [Brandon Johnson](https://brandoncjo
 3. Abrir su navegador de preferencia en http://localhost:8080/ <br/>
 
 ## Tecnologías implementadas
-Tecnología	    | Explicación
+Tecnología	Utilizada    | Explicación
 ----------------|---------------------------------------------------------
 ✅ React       | Se puede hacer uso de comoponenetes, lo cual permite ahorrar código, brinda un aspecto uniforme dentro del sitio y VirtualDOM permite que se actualicen los cambios realizados. 
 ✅ Webpack    	| Coloca en un grafo de dependencias a todos los elementos que forman parte de tu proyecto de desarrollo.
