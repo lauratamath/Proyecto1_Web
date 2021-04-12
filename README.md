@@ -4,7 +4,7 @@ Proyecto 1 | Sistemas y tecnologías web
 Este proyecto es una réplica del sitio web [Brandon Johnson](https://brandoncjohnson.com/) haciendo uso de React.js con un mejoramiento del rendimiento del DOM.
 
 ## Instalación
-1. Clonar el repositorio de `GitHub` https://github.com/lauratamath/HuntingCovidians.git a la carpeta deseada. <br/>
+1. Clonar el repositorio de `GitHub` https://github.com/lauratamath/Proyecto1_Web a la carpeta deseada. <br/>
 2. Dentro de dicha carpeta, abrir la PowerShell o cmd, y colocar el comando `npm run build` y luego `npm run serve` para poder correr la página.<br/>
 3. Abrir su navegador de preferencia en http://localhost:8080/ <br/>
 
