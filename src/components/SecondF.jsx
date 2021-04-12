@@ -9,7 +9,7 @@ const About = () => (
   <div id="viewport">
     <div className="about about-active">
       <div className="numeros">00002</div>
-      <div className="container">
+      <div className="containerS">
         <img src={aste1} alt="aste1" className="asteroid" />
         <img src={aste2} alt="aste2" className="asteroid-2" />
         <img src={aste3} alt="aste3" className="asteroid-3" />

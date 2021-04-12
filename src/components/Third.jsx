@@ -17,7 +17,13 @@ const Hydro = () => (
               throughout the solar system.
             </p>
             <div className="impact">
-              boton de play
+              <div className="play">
+                <br />
+                <br />
+                ‣
+              </div>
+              &nbsp; IMPACT DEMO
+              <p> &nbsp; Play Video</p>
             </div>
           </div>
           <div className="column-2">

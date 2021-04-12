@@ -6,7 +6,7 @@ const Interest = () => (
   <div id="viewport">
     <div className="interests interests-active">
       <div className="numero">00004</div>
-      <div className="container">
+      <div className="containerI">
         <div className="line-steez" />
         <div className="profile">
           <div className="google">

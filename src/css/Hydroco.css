@@ -10,7 +10,7 @@
     position: relative;
     color: #ffffff;
     overflow: hidden;
-    min-width: 1800px;
+    display: block;
 }
 
 .numeros{
@@ -31,10 +31,11 @@
     color: #ffffff;
 }
 
-.container {
+.containerH {
     margin: auto;
     width: 1100px;
     position: relative;
+    height: 900px;
 }
 
 .row:after {
@@ -74,15 +75,24 @@ p{
 }
 
 .impact {
-    padding-top: 100px;
-    line-height: 18px;
-}
-.hydrocode .impact a{
     transition: 0.5s all;
     color: #ffffff;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     display: block;
+    font-weight: bold;
+    font-family: "Lucida Sans Typewriter", monospace;
+    letter-spacing: 3px;
+    float: left;
+    margin-right: 20px;
+    width: 260px;
+    height: 90px;
+    padding-top: 90px;
+    line-height: 18px;
+}
+
+.impact:hover{
+    color:  #cfc483;
 }
 
 .hydrocode .graph {
@@ -174,4 +184,25 @@ p{
 
 .off:hover{
     color: #ffffff;
+}
+
+.play{
+    transition: all 0.3s;
+    border: 5px solid #e0e0e0;
+    display: inline-block;
+    font-size: 73px;
+    line-height: 17px;
+    font-family: "Lucida Sans Typewriter", monospace;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 70px;
+    height: 78px;
+    float: left;
+}
+
+.play:hover{
+    cursor: pointer;
+    border: 5px solid #cfc483;
+    color:  #cfc483;
 }
