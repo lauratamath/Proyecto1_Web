@@ -8,6 +8,9 @@ Este proyecto es una réplica del sitio web [Brandon Johnson](https://brandoncjo
 2. Dentro de dicha carpeta, abrir la PowerShell o cmd, y colocar el comando `npm run build` y luego `npm run serve` para poder correr la página.<br/>
 3. Abrir su navegador de preferencia en http://localhost:8080/ <br/>
 
+## Visualícelo también en
+`El servidor de la clase` http://ubeje.xyz/19365/proyecto1/index.html
+
 ## Tecnologías implementadas
 Tecnología	Utilizada    | Explicación
 ----------------|---------------------------------------------------------
