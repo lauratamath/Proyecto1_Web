@@ -4,10 +4,10 @@ import persona from '../imagenes/profile.jpg'
 
 const Interest = () => (
   <div id="viewport">
-    <div className="interests interests-active">
+    <div className="interests">
       <div className="numero">00004</div>
       <div className="containerI">
-        <div className="line-steez" />
+        <div className="line-steezZ" />
         <div className="profile">
           <div className="google">
             <img src={persona} alt="profileImg" className="profileImg" />

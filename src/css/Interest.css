@@ -37,10 +37,7 @@
     height: 400px;
 }
 
-.interests-active .line-steez {
-    width: 60px;
-}
-.interests .line-steez {
+.line-steezZ {
     -webkit-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -moz-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -ms-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -49,9 +46,13 @@
     position: absolute;
     left: 0px;
     top: -300px;
-    width: 0px;
     height: 6px;
+    width: 0px;
     background: #484644;
+}
+
+.interests:hover .line-steezZ {
+    width: 60px;
 }
 
 .profile {

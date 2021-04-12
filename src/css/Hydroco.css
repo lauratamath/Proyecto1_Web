@@ -114,7 +114,7 @@ p{
     bottom: -260px;
 }
 
-.hydrocode-active .graph-line {
+.hydrocode:hover .graph-line {
     height: 860px;
 }
 

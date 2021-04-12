@@ -103,7 +103,7 @@ h3{
     text-align: center;
 }
 
-.about .line-steez {
+.line-steez {
     transition: 2.3s all cubic-bezier(0.23, 1, 0.32, 1);
     height: 900px;
     width: 3px;
@@ -119,14 +119,14 @@ h3{
     -o-transition: 1.3s all cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.about-active .steez-2 {
+.about:hover .line-steez1 {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
-.about-active .line-steez1 {
+.about:hover .steez-2 {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -149,7 +149,7 @@ h3{
     -moz-box-sizing: border-box;
 }
 
-.about-active .box{
+.about:hover .box{
     height: 500px;
 }
 

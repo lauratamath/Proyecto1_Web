@@ -9,11 +9,9 @@ import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
 import Sixth from './components/Sixth'
 import Footer from './components/Last'
-import Navigation from './components/Navigation'
 
 const App = () => (
   <div>
-    <Navigation />
     <Primer />
     <Second />
     <Third />

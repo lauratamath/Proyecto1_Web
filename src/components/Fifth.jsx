@@ -9,7 +9,7 @@ const Publica = () => (
         <div className="line-x" />
         <div className="line-x line-x-2" />
         <div className="linesteez" />
-        <div className="linesteez linesteez-2" />
+        <div className="linesteez linesteezX-2" />
         <div className="ptexto">
           <div className="tit">
             15 of 37

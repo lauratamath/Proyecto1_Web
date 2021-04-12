@@ -74,11 +74,11 @@
     background: #484644;
 }
 
-.active .linesteez-2 {
+.publications:hover .linesteezX-2 {
     width: 60px;
 }
 
-.linesteez-2 {
+.linesteezX-2 {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
